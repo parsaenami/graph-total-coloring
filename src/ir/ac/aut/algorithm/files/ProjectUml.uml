@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ir.ac.aut.algorithm.Main</OriginalElement>
+  <nodes>
+    <node x="896.0" y="717.0">ir.ac.aut.algorithm.io.ReadData</node>
+    <node x="429.7470238095238" y="937.0">ir.ac.aut.algorithm.Main</node>
+    <node x="369.54166666666663" y="0.0">ir.ac.aut.algorithm.graph.Edge</node>
+    <node x="131.54166666666663" y="32.5">ir.ac.aut.algorithm.graph.Vertex</node>
+    <node x="472.0" y="695.0">ir.ac.aut.algorithm.coloring.EdgeColoring</node>
+    <node x="0.0" y="684.0">ir.ac.aut.algorithm.gui.GraphUI</node>
+    <node x="261.0" y="717.0">ir.ac.aut.algorithm.coloring.VertexColoring</node>
+    <node x="269.72172619047615" y="363.0">ir.ac.aut.algorithm.graph.Graph</node>
+    <node x="690.0" y="717.0">ir.ac.aut.algorithm.io.WriteData</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ir.ac.aut.algorithm.Main" target="ir.ac.aut.algorithm.coloring.VertexColoring">
+      <point x="-35.20833333333337" y="-25.5" />
+      <point x="479.0386904761904" y="887.0" />
+      <point x="308.5" y="887.0" />
+      <point x="-47.5" y="48.5" />
+    </edge>
+    <edge source="ir.ac.aut.algorithm.coloring.EdgeColoring" target="ir.ac.aut.algorithm.graph.Graph">
+      <point x="0.0" y="-70.5" />
+      <point x="571.0" y="634.0" />
+      <point x="447.84672619047615" y="634.0" />
+      <point x="83.125" y="125.5" />
+    </edge>
+    <edge source="ir.ac.aut.algorithm.Main" target="ir.ac.aut.algorithm.coloring.EdgeColoring">
+      <point x="7.041666666666629" y="-25.5" />
+      <point x="-49.5" y="70.5" />
+    </edge>
+    <edge source="ir.ac.aut.algorithm.graph.Graph" target="ir.ac.aut.algorithm.graph.Vertex">
+      <point x="-79.16666666666674" y="-125.5" />
+      <point x="285.5550595238094" y="303.0" />
+      <point x="213.29166666666663" y="303.0" />
+      <point x="-27.25" y="104.0" />
+    </edge>
+    <edge source="ir.ac.aut.algorithm.coloring.VertexColoring" target="ir.ac.aut.algorithm.graph.Graph">
+      <point x="-47.5" y="-48.5" />
+      <point x="308.5" y="664.0" />
+      <point x="352.84672619047615" y="664.0" />
+      <point x="-11.875" y="125.5" />
+    </edge>
+    <edge source="ir.ac.aut.algorithm.gui.GraphUI" target="ir.ac.aut.algorithm.graph.Vertex">
+      <point x="-90.0" y="-81.5" />
+      <point x="30.0" y="664.0" />
+      <point x="45.287202380952294" y="664.0" />
+      <point x="45.287202380952294" y="303.0" />
+      <point x="158.79166666666663" y="303.0" />
+      <point x="-81.75" y="104.0" />
+    </edge>
+    <edge source="ir.ac.aut.algorithm.gui.GraphUI" target="ir.ac.aut.algorithm.graph.Edge">
+      <point x="-30.0" y="-81.5" />
+      <point x="90.0" y="664.0" />
+      <point x="65.5" y="664.0" />
+      <point x="65.5" y="313.0" />
+      <point x="389.04166666666663" y="313.0" />
+      <point x="-78.0" y="136.5" />
+    </edge>
+    <edge source="ir.ac.aut.algorithm.Main" target="ir.ac.aut.algorithm.io.WriteData">
+      <point x="49.29166666666663" y="-25.5" />
+      <point x="563.5386904761904" y="897.0" />
+      <point x="829.5" y="897.0" />
+      <point x="46.5" y="48.5" />
+    </edge>
+    <edge source="ir.ac.aut.algorithm.Main" target="ir.ac.aut.algorithm.graph.Graph">
+      <point x="-7.041666666666686" y="-25.5" />
+      <point x="507.2053571428571" y="867.0" />
+      <point x="461.5" y="867.0" />
+      <point x="461.5" y="654.0" />
+      <point x="400.34672619047615" y="654.0" />
+      <point x="35.625" y="125.5" />
+    </edge>
+    <edge source="ir.ac.aut.algorithm.coloring.EdgeColoring" target="ir.ac.aut.algorithm.graph.Edge">
+      <point x="66.0" y="-70.5" />
+      <point x="637.0" y="664.0" />
+      <point x="632.1830357142857" y="664.0" />
+      <point x="632.1830357142857" y="343.0" />
+      <point x="545.0416666666666" y="343.0" />
+      <point x="78.0" y="136.5" />
+    </edge>
+    <edge source="ir.ac.aut.algorithm.gui.GraphUI" target="ir.ac.aut.algorithm.graph.Graph">
+      <point x="90.0" y="-81.5" />
+      <point x="210.0" y="644.0" />
+      <point x="305.34672619047615" y="644.0" />
+      <point x="-59.375" y="125.5" />
+    </edge>
+    <edge source="ir.ac.aut.algorithm.graph.Graph" target="ir.ac.aut.algorithm.graph.Edge">
+      <point x="15.833333333333314" y="-125.5" />
+      <point x="380.55505952380946" y="323.0" />
+      <point x="428.04166666666663" y="323.0" />
+      <point x="-39.0" y="136.5" />
+    </edge>
+    <edge source="ir.ac.aut.algorithm.Main" target="ir.ac.aut.algorithm.gui.GraphUI">
+      <point x="-63.37500000000006" y="-25.5" />
+      <point x="450.87202380952374" y="907.0" />
+      <point x="180.0" y="907.0" />
+      <point x="60.0" y="81.5" />
+    </edge>
+    <edge source="ir.ac.aut.algorithm.Main" target="ir.ac.aut.algorithm.io.ReadData">
+      <point x="63.375" y="-25.5" />
+      <point x="577.6220238095239" y="907.0" />
+      <point x="935.5" y="907.0" />
+      <point x="-39.5" y="48.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9388446215139441" x="484.50000000000006" y="268.12009335879486" />
+  <SelectedNodes>
+    <node>ir.ac.aut.algorithm.graph.Vertex</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

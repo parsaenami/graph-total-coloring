@@ -1,0 +1,11 @@
+Vertex <0> : Color 0
+Vertex <1> : Color 1
+Vertex <2> : Color 0
+Vertex <3> : Color 1
+Vertex <4> : Color 2
+Edge <0-1> : Color 2
+Edge <0-4> : Color 1
+Edge <1-2> : Color 3
+Edge <1-4> : Color 0
+Edge <2-3> : Color 2
+Edge <3-4> : Color 3
